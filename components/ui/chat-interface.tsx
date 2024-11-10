@@ -28,7 +28,7 @@ const ClientOnly: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
 const ChatInterface = () => {
   const [messages, setMessages] = useState([
-    { id: "initial", text: "Hi there! 👋 Im Ria Im the AI assistant of my master YugesRaj🦸. How can I assist you today?", sender: "bot" }
+    { id: "initial", text: "Hi there! 👋 Im Riya Im the AI assistant of my master YugesRaj🦸. How can I assist you today?", sender: "bot" }
   ]);
   const [inputValue, setInputValue] = useState("");
   const [isExpanded, setIsExpanded] = useState(false);
