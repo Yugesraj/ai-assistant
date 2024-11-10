@@ -28,7 +28,7 @@ const ClientOnly: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
 const ChatInterface = () => {
   const [messages, setMessages] = useState([
-    { id: "initial", text: "👋 Hello! How can I help you today?", sender: "bot" }
+    { id: "initial", text: "Hi there! 👋 Im Ria Im the AI assistant of my master YugesRaj🦸. How can I assist you today?", sender: "bot" }
   ]);
   const [inputValue, setInputValue] = useState("");
   const [isExpanded, setIsExpanded] = useState(false);
@@ -141,7 +141,7 @@ const ChatInterface = () => {
                 </Avatar>
                 <div>
                   <CardTitle className="text-lg font-bold bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">
-                    AI Assistant
+                    Riya AI Assistant
                   </CardTitle>
                   <ClientOnly>
                     {isTyping && (
